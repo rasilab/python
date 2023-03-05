@@ -23,3 +23,6 @@ RUN mamba install -y -c conda-forge -c bioconda \
     seaborn \
     regex \
     snakemake-minimal
+
+RUN mamba install -y -c conda-forge altair
+RUN pip install skimpy
