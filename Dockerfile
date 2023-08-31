@@ -22,7 +22,9 @@ RUN mamba install -y -c conda-forge -c bioconda \
     plotnine \
     seaborn \
     regex \
-    snakemake-minimal
+    snakemake-minimal \
+    htseq
 
-RUN mamba install -y -c conda-forge altair
+RUN mamba install -y -c conda-forge altair \
+    scipy
 RUN pip install skimpy
